@@ -6,14 +6,14 @@
         <identifier-quote-string>&quot;</identifier-quote-string>
       </database-info>
       <case-sensitivity plain-identifiers="lower" quoted-identifiers="exact" />
-      <resolve-scope>myapp_development:public,</resolve-scope>
+      <resolve-scope>myapp_development:public</resolve-scope>
     </data-source>
     <data-source name="Rails sample_app: test" uuid="9ed82cbc-4a30-4c86-a017-efe099d8fe02">
       <database-info product="PostgreSQL" version="9.6.1" jdbc-version="4.0" driver-name="PostgreSQL Native Driver" driver-version="PostgreSQL 9.4 JDBC4 (build 1201)">
         <identifier-quote-string>&quot;</identifier-quote-string>
       </database-info>
       <case-sensitivity plain-identifiers="lower" quoted-identifiers="exact" />
-      <resolve-scope>myapp_test:public,</resolve-scope>
+      <resolve-scope>myapp_test:public</resolve-scope>
     </data-source>
     <data-source name="Rails sample_app: production" uuid="6f69f6ce-5ed8-44b9-b066-75c44477b3fb">
       <database-info product="" version="" jdbc-version="" driver-name="" driver-version="" />
