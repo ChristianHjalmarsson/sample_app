@@ -1,4 +1,4 @@
-class User
+class UserABC
   attr_accessor :name, :email
 
   def initialize(attributes = {})
@@ -12,3 +12,6 @@ class User
   end
 
 end
+
+
+#Gör inget. Var ett test för att se hur den funkar mot terminalens ruby kodning.

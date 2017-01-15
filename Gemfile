@@ -13,11 +13,14 @@ group :development, :test do
   # Old one
   #gem 'sqlite3'
   gem 'pg'
+  gem 'annotate'
 end
 
 group :test do
   gem 'capybara'
 end
+
+gem 'bcrypt'
 
 gem 'bootstrap-sass'
 
